@@ -2,6 +2,10 @@ import * as THREE from "three";
 import * as RAPIER from "@dimforge/rapier3d";
 import Stats from 'stats.js'; // Import stats.js (if using npm)
 
+// import * as THREE from "https://cdn.skypack.dev/three";
+// import * as RAPIER from "https://cdn.skypack.dev/@dimforge/rapier3d";
+// import Stats from "https://cdn.skypack.dev/stats.js";
+
 const stats = new Stats();
 stats.showPanel(0); // 0: FPS, 1: MS, 2: memory
 document.body.appendChild(stats.dom); // Append the stats panel to the DOM

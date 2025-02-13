@@ -5,9 +5,8 @@ export default {
 
   build: {
     rollupOptions: {
-      input: {
-        main: "index.html",
-        extra: "src/main.js",
+      output: {
+        format: "es",
       },
     },
   },
