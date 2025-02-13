@@ -1,5 +1,5 @@
 import * as THREE from "three";
-// import RAPIER from "@dimforge/rapier3d"; // Remove the `*` import
+// import * as RAPIER from "@dimforge/rapier3d";
 import Stats from "stats.js";
 
 var run = async function () {
